@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #cab49b;
+    background-color: #e1dfdc;
+    font-family: 'Lobster', cursive;
+
   }
 
 body, html {
@@ -12,7 +14,7 @@ body, html {
 /********* Navbar *********/
 nav a {
     text-decoration: none;
-    color: white;
+    color: #474d53;
 }
 
 .navbar {
@@ -21,18 +23,17 @@ nav a {
 }
 
 .navbar-list {
-    font-family: 'Lobster', cursive;
     font-weight: bolder;
     display: flex;
     flex-direction: row;
-    gap: 8rem;
+    gap: 2rem;
 }
 
 /******** Hero bg ********/
 .hero-image {
     display: flex;
     justify-content: center;
-    background-color: #cab49b;
+    background-color: #e1dfdc;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,7 +49,7 @@ nav a {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #474d53;
 }
 
 .hero-text h1 {
@@ -69,11 +70,22 @@ nav a {
 
 .down-arrow {
     flex-wrap: wrap-reverse;
-    border: solid white;
+    border: solid #474d53;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 10px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-
 }
+
+/********* My work *********/
+.mywork-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.row {
+    padding-top: 3rem;
+    gap: 5rem;
+}
+
