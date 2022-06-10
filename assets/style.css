@@ -27,7 +27,11 @@ nav a {
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    padding-left: 3rem;
+    padding-top: 1.5rem;
 }
+
+
 
 /******** Hero bg ********/
 .hero-image {
@@ -89,3 +93,9 @@ nav a {
     gap: 5rem;
 }
 
+/********* Contact Me *********/
+.contactme-container {
+    padding-top: 7rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
